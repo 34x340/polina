@@ -2,9 +2,15 @@
 .header__section {
     font-family: Montserrat Alternates, solid;
     font-weight: 400;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
+}
+
+.header__list {
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 50px;
+    margin: 0 ;
 }
 
 .header__link {
@@ -12,11 +18,27 @@
     font-weight: 400;
     text-decoration: none;
     color: black;
+    transition: all 0.3s ease 0s;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.header__link:hover {
+    color: #D2B48C  ;
+    transition: all 0.3s ease 0s;
+    text-shadow: #D2B48C 2px 0 10px;
 }
 
 .header__title {
     font-family: Montserrat Alternates, solid;
     font-weight: 400;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.vector__header {
+    background-color: #000;
+    height: .5px;
+    width: 250px;
+    margin: auto;
 }
 
 /* MENU */
@@ -28,21 +50,53 @@
     margin: 0;
     gap: 30px;
     padding: 0%;
+    margin-top: 36px;
 }
 
 .menu__but{
-    font-family: Montserrat Alternates, solid;
+    /* font-family: Montserrat Alternates, solid;
     font-weight: 400;
     background: none;
     border: 1px solid red;  
-    border-radius: 20px;
+    border-radius: 20px; */
+    color:  #D2B48C;
+    text-transform: uppercase;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #D2B48C ;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.2s ease 0s;
 }
 
 .menu__but:hover {
-    transition: 0.5s;
-    border-radius: 5px  ;
+    border-radius: 50px;
+    transition: all 0.2s ease 0s;
+    color:  #000000;
+    border: 1px solid #000;
 }
 
+.zhadan__but {
+    list-style: none;
+    text-decoration: none;
+    color: #D2B48C;
+}
+
+.zhadan__but:hover {
+    transition: all 0.2s ease 0s;
+    color:  #000000;
+}
+
+.polina__but {
+    list-style: none;
+    text-decoration: none;
+    color: #D2B48C;
+}
+
+.polina__but:hover {
+    transition: all 0.2s ease 0s;
+    color:  #000000;
+}
 
 
 /* INFO */
@@ -52,8 +106,10 @@
 .info__title {
     font-family: Montserrat Alternates, solid;
     font-weight: 400;
+    font-size: 36px;
     display: flex;
     justify-content: center;
+    text-shadow:  #D2B48C 2px 0 10px;
 }
 
 .info__list {
@@ -78,11 +134,71 @@
     font-weight: 400;
     font-size: 16px;
     text-align: center;
+    transition: all 0.5s ease 0s;
+    text-shadow:  #D2B48C 2px 0 30px;
 }
 
 .info__item:hover {
-    transition: 0.5s;
-    background-color: aqua;
+    transition: all 0.5s ease 0 ;
+    background-color:#e2ded9;
     border-radius: 20px;
+    
+}
+
+.info__link {
+    text-decoration: none;
+    color: black;
+}
+
+.info__link:hover {
+    text-decoration: none;
+    color: aliceblue    ;
+}
+
+.info__vector-end {
+    background-color: #000;
+    height: .5px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 36px;
+}
+
+/* POLINA */
+
+.polina__list {
+    display: flex;
+    justify-content: center;
+    text-shadow: #D2B48C 2px 0 10px;
+}
+
+.polina__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.polina__photo-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.polina__img {
+    height: 500px;
+    box-shadow: 20px 20px 50px  #D2B48C ;
+}
+
+.polina__link {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.polina__link:hover {
+    color: #D2B48C  ;
+    transition: all 0.3s ease 0s;
 }
 
