@@ -1,0 +1,88 @@
+/* HEADER */
+.header__section {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+}
+
+.header__link {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+}
+
+.header__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+}
+
+/* MENU */
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 30px;
+    padding: 0%;
+}
+
+.menu__but{
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    background: none;
+    border: 1px solid red;  
+    border-radius: 20px;
+}
+
+.menu__but:hover {
+    transition: 0.5s;
+    border-radius: 5px  ;
+}
+
+
+
+/* INFO */
+
+
+
+.info__title {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.info__list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.info__vector {
+    background-color: #000;
+    height: .5px;
+    width: 250px;
+    margin: auto;
+}
+
+.info__item {
+    font-family: Montserrat Alternates, solid;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.info__item:hover {
+    transition: 0.5s;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
